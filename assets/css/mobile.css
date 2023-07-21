@@ -1,0 +1,205 @@
+@media screen and (max-width: 1024px) {
+    /* Cabecalho */
+    .cabecalho {
+        background-image: url('../img/back_mobile.png');
+        background-repeat: no-repeat;
+        background-size: 100vw;
+    }
+
+    .cabecalho_coisas {
+        padding: 0 0 21rem 0;
+    }
+
+    .barra_opcoes {
+        display: none;
+    }
+
+    .logo {
+        display: block;
+        margin: 0 auto 0 auto;
+        text-align: center;
+    }
+
+    .cabecalho_img{
+        width: 25%;
+    }
+
+    /* Menu */
+    .cabecalho__menu{
+        display: block;
+    }
+    
+    .menu__lateral{
+        display: block;
+    }
+    .cabecalho__menu{
+        background: transparent;
+        border: none;
+        padding: 1rem 0 1rem 1rem;
+    }
+    
+    .menu_botao{
+        width: 3.5rem;
+        height: 3rem;
+    }
+        
+    .menu__lateral {
+        display: flex;
+        flex-direction: column;
+        background: rgba(0,0,0, 0.9);
+        width: 15rem;
+        height: 25rem;
+        position: absolute;
+        left: -100vw;
+        transition: .25s;
+    }
+    
+    .menu__lateral-ativo {
+        left: 0;
+        transition: .25s;
+    }
+    
+    .menu__lateral-logo {
+        width: 4.5rem;
+        align-self: center;
+        padding: 1rem;
+    }
+    
+    .menu__lateral-link {
+        height: 3rem;
+        color: var(--primeiro-fundo);
+        padding-left: 2.5rem;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+    }
+    
+
+    /* Adotar */
+    .adotar {
+        grid-template-areas:
+            'imagem'
+            'texto1'
+            'texto2';
+        grid-template-rows: 20rem;
+        margin: 0;
+        padding: 0 2.5rem 1.5rem 2.5rem;
+    }
+
+    .adotar_img {
+        justify-self: center;
+    }
+
+    .adotar_titulo {
+        justify-self: center;
+    }
+
+    /* Necessidades */
+    .necessidades {
+        display: none;
+    }
+
+    .necessidades_card{
+        margin: 0 auto;
+    }
+
+    .necessidades_mobile {
+        display: block;
+        background-color: var(--segundo-fundo);
+        padding: 1.5rem 0 1.5rem 0;
+    }
+    
+    .swiper-horizontal1{
+        height: 380px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+
+    /* Ajuda */
+    .ajuda {
+        grid-template-areas:
+            'imagem'
+            'texto1'
+            'texto2'
+            'texto3';
+        grid-template-rows: 16rem;
+        margin: 0;
+        padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+    }
+
+    .ajuda_img {
+        justify-self: center;
+    }
+
+    .ajuda_titulo {
+        justify-self: center;
+    }
+
+    /* Medicos */
+    .medico {
+        padding-bottom: 1.5rem;
+    }
+
+    .medico_img {
+        width: 100%;
+    }
+
+    .medico_texto {
+        padding: 0 2.5rem 0 2.5rem;
+    }
+
+    .medico_mapa-link {
+        width: 350px;
+        height: 250px;
+    }
+
+    /* Comentarios */
+    .comentario_card {
+        padding: 1.5rem 0 1.5rem 0;
+    }
+
+    .comentario_texto {
+        padding: 0 2.5rem 0 2.5rem;
+    }
+
+    /* Rodape */
+    .rodape_links {
+        display: none;
+    }
+
+    .email {
+        display: none;
+    }
+
+    .rodape_acesso {
+        display: inline;
+        padding: 1.6rem 0 1.6rem 0;
+    }
+
+    .rodape_logo {
+        padding-top: 1.5rem;
+        text-align: center;
+    }
+
+    .radape_img {
+        width: 15%;
+    }
+
+    .rodape_logotipo {
+        padding-top: 0.2rem;
+        font-size: 0.6rem;
+        text-align: center;
+    }
+
+    .assinatura {
+        display: inline;
+    }
+
+    .assinatura_escrito {
+        padding-top: 1.5rem;
+    }
+}
